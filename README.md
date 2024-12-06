@@ -1,5 +1,5 @@
 # 💫 About Me:
-I´m a junior programmer focused on web development with experience in various languages and frameworks aimed at responsive and hybrid web pages.
+I´m a junior programmer focused on web development with experience in various languages and frameworks animed at responsive and hybrid web pages.
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-sebastian-martinez-lesmes-52948b234/) | [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://co.pinterest.com/Lesmes_001/)
