@@ -13,4 +13,3 @@ I´m a junior programmer focused on web development with experience in various l
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=SebastianMartinezLesmes&theme=algolia&no-frame=true&no-bg=false&margin-w=4)
-<-- comentario -->
