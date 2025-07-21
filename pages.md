@@ -29,3 +29,10 @@ Crea direcciones de correo electrónico temporales que puedes usar para registra
 Ofrece números de teléfono temporales de distintos países para recibir SMS en línea de forma gratuita. Útil para verificaciones rápidas sin usar tu número real.
 
 ---
+
+## 5. Extensiones útiles de Chrome
+
+Aquí algunas extensiones recomendadas que pueden mejorar tu productividad, privacidad y experiencia como desarrollador:
+
+- 🛡️ **[Urban VPN Proxy](https://chrome.google.com/webstore/detail/urban-vpn-proxy/bhchdcejhohfmigjafbampogmaanbfkg)**  
+  Navega de forma anónima y accede a contenido restringido geográficamente. Gratis y sin límites de ancho de banda.
