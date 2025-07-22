@@ -24,8 +24,8 @@ jobs:
         with:
           github_user_name: SebastianMartinezLesmes
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?palette=[#ffe5e5,#ff9999,#ff4d4d,#e60000,#990000]
+            dist/github-contribution-grid-snake-dark.svg?palette=[#ffe5e5,#ff9999,#ff4d4d,#e60000,#990000]
 
       - name: Push generated files
         uses: crazy-max/ghaction-github-pages@v4
