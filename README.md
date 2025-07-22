@@ -39,8 +39,9 @@ I enjoy experimenting with new technologies and continually improving my skills 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=SebastianMartinezLesmes&theme=algolia&no-frame=true&no-bg=false&margin-w=4)
 
+## 🐍 Contribution Snake
+![snake gif](https://github.com/SebastianMartinezLesmes/SebastianMartinezLesmes/blob/output/github-contribution-grid-snake.svg)
+
 ## 📚 Pages / Recursos
 - 📄 [pages.md](./pages.md): Lista de recursos útiles (IA, libros, correos temporales, # celulares temporales)
 
-## 🐍 Contribution Snake
-![snake gif](https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg)
