@@ -1,6 +1,3 @@
-puedes aplicar contribution snake a:
-# 💫 About Me:
-I´m a junior programmer focused on web development with experience in various languages and frameworks animed at responsive and hybrid web pages.
 # 💫 About Me
 
 I'm a junior web developer passionate about building responsive, hybrid, and interactive applications.  
