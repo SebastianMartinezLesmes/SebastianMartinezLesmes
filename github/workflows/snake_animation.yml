@@ -1,0 +1,17 @@
+name: Generate Snake Animation
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # todos los días a medianoche
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: SebastianMartinezLesmes
+          outputs: |
+            ./output/github-contribution-grid-snake.svg
+
