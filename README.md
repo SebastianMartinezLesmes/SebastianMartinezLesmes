@@ -43,4 +43,5 @@ I enjoy experimenting with new technologies and continually improving my skills 
 - 📄 [pages.md](./pages.md): Lista de recursos útiles (IA, libros, correos temporales, # celulares temporales)
 
 ## 🐍 Contribution Snake
-![snake gif](https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg)
+![snake gif dark](https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake-dark.svg?palette=github-dark)
+
