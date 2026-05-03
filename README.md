@@ -34,11 +34,18 @@ I enjoy experimenting with new technologies and continually improving my skills 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 # 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=SebastianMartinezLesmes&theme=dark&hide_border=false)  
+![](https://streak-stats.demolab.com/?user=SebastianMartinezLesmes&theme=dark&hide_border=false)  
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=SebastianMartinezLesmes&theme=algolia&no-frame=true&no-bg=false&margin-w=4)
+
+## 🐍 Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
+</picture>
 
 ## 📚 Pages / Recursos
 - 📄 [pages.md](./pages.md): Lista de recursos útiles (IA, libros, correos temporales, # celulares temporales)
