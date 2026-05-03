@@ -47,6 +47,10 @@ I enjoy experimenting with new technologies and continually improving my skills 
   <img alt="github-snake" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
 </picture>
 
-## 📚 Pages / Recursos
-- 📄 [pages.md](./pages.md): Lista de recursos útiles (IA, libros, correos temporales, # celulares temporales)
+## 📚 Recursos útiles
+
+> Recopilé una lista de herramientas y páginas gratuitas que uso frecuentemente como desarrollador.  
+> Incluye IAs para trabajar, libros de programación, playgrounds para testear código, privacidad y más.
+
+[![Ver recursos →](https://img.shields.io/badge/📄%20Ver%20pages.md-Recursos%20gratuitos-blue?style=for-the-badge)](./pages.md)
 
