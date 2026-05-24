@@ -47,6 +47,27 @@ I enjoy experimenting with new technologies and continually improving my skills 
   <img alt="github-snake" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
 </picture>
 
+<details>
+<summary>🌊 Variante Ocean (GIF)</summary>
+<br>
+<img alt="github-snake-ocean" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake-ocean.gif" />
+</details>
+
+## 📦 Últimos repositorios
+
+<!-- RECENT-REPOS:START -->
+<!-- RECENT-REPOS:END -->
+
+<!-- WEEKLY-ACTIVITY:START -->
+<!-- WEEKLY-ACTIVITY:END -->
+
+## 📊 Métricas del repositorio
+
+<!-- METRICS-DASHBOARD:START -->
+<!-- METRICS-DASHBOARD:END -->
+
+
+
 ## 📚 Recursos útiles
 
 > Recopilé una lista de herramientas y páginas gratuitas que uso frecuentemente como desarrollador.  

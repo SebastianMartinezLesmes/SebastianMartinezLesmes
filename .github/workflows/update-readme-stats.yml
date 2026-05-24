@@ -1,0 +1,131 @@
+name: Update README Stats 🚀
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # Todos los días a las 06:00 UTC
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    name: Update profile stats in README
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Necesario para acceder al historial completo
+
+      # ─── Últimos repositorios actualizados ───────────────────────────────────
+      - name: Get recent repositories
+        id: recent-repos
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: 'SebastianMartinezLesmes',
+              sort: 'updated',
+              per_page: 5,
+              type: 'owner'
+            });
+
+            const lines = repos.map(r => {
+              const desc = r.description ? ` — ${r.description}` : '';
+              const lang = r.language ? ` \`${r.language}\`` : '';
+              return `| [${r.name}](${r.html_url}) |${lang} | ⭐ ${r.stargazers_count} | ${new Date(r.updated_at).toISOString().split('T')[0]} |`;
+            });
+
+            const table =
+              '| Repositorio | Lenguaje | Stars | Última actualización |\n' +
+              '|---|---|---|---|\n' +
+              lines.join('\n');
+
+            core.setOutput('table', table);
+
+      # ─── Actividad semanal (commits de los últimos 7 días) ───────────────────
+      - name: Get weekly activity
+        id: weekly-activity
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+
+            const { data: events } = await github.rest.activity.listPublicEventsForUser({
+              username: 'SebastianMartinezLesmes',
+              per_page: 100
+            });
+
+            const pushEvents = events.filter(e =>
+              e.type === 'PushEvent' && new Date(e.created_at) >= new Date(since)
+            );
+
+            const commitCount = pushEvents.reduce((sum, e) => sum + (e.payload.commits?.length || 0), 0);
+            const repoSet = new Set(pushEvents.map(e => e.repo.name));
+
+            const summary = `🗓️ Última semana: **${commitCount} commits** en **${repoSet.size} repositorios**`;
+            core.setOutput('summary', summary);
+
+      # ─── Inyectar datos en el README ─────────────────────────────────────────
+      - name: Update README with stats
+        env:
+          RECENT_REPOS: ${{ steps.recent-repos.outputs.table }}
+          WEEKLY_ACTIVITY: ${{ steps.weekly-activity.outputs.summary }}
+        run: |
+          python3 << 'EOF'
+          import os, re
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          repos_table = os.environ.get('RECENT_REPOS', '')
+          weekly      = os.environ.get('WEEKLY_ACTIVITY', '')
+
+          # Bloque: últimos repositorios
+          repos_block = (
+              "<!-- RECENT-REPOS:START -->\n"
+              f"{repos_table}\n"
+              "<!-- RECENT-REPOS:END -->"
+          )
+          if '<!-- RECENT-REPOS:START -->' in content:
+              content = re.sub(
+                  r'<!-- RECENT-REPOS:START -->.*?<!-- RECENT-REPOS:END -->',
+                  repos_block, content, flags=re.DOTALL
+              )
+          else:
+              content += f"\n{repos_block}\n"
+
+          # Bloque: actividad semanal
+          activity_block = (
+              "<!-- WEEKLY-ACTIVITY:START -->\n"
+              f"{weekly}\n"
+              "<!-- WEEKLY-ACTIVITY:END -->"
+          )
+          if '<!-- WEEKLY-ACTIVITY:START -->' in content:
+              content = re.sub(
+                  r'<!-- WEEKLY-ACTIVITY:START -->.*?<!-- WEEKLY-ACTIVITY:END -->',
+                  activity_block, content, flags=re.DOTALL
+              )
+          else:
+              content += f"\n{activity_block}\n"
+
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(content)
+
+          print("README actualizado correctamente.")
+          EOF
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add README.md
+          git diff --staged --quiet || git commit -m "chore: update README stats [skip ci]"
+          git push
