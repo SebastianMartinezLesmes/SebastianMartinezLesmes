@@ -66,7 +66,7 @@ I enjoy experimenting with new technologies and continually improving my skills 
 <!-- RECENT-REPOS:END -->
 
 <!-- WEEKLY-ACTIVITY:START -->
-🗓️ Última semana: **0 commits** en **1 repositorios**
+🗓️ Última semana: **0 commits** en **0 repositorios**
 <!-- WEEKLY-ACTIVITY:END -->
 
 ## 📊 Métricas del repositorio
