@@ -69,14 +69,7 @@ I enjoy experimenting with new technologies and continually improving my skills 
 🗓️ Última semana: **0 commits** en **0 repositorios**
 <!-- WEEKLY-ACTIVITY:END -->
 
-## 📊 Métricas del repositorio
-
-<!-- METRICS-DASHBOARD:START -->
-<!-- METRICS-DASHBOARD:END -->
-
-
-
-## 📚 Recursos útiles
+## � Recursos útilesp
 
 > Recopilé una lista de herramientas y páginas gratuitas que uso frecuentemente como desarrollador.  
 > Incluye IAs para trabajar, libros de programación, playgrounds para testear código, privacidad y más.

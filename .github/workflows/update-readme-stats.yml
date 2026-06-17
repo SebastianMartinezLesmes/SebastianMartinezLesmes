@@ -3,9 +3,6 @@ name: Update README Stats 🚀
 on:
   schedule:
     - cron: "0 6 * * *"  # Todos los días a las 06:00 UTC
-  push:
-    branches:
-      - main
   workflow_dispatch:
 
 permissions:
@@ -18,9 +15,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0  # Necesario para acceder al historial completo
+        uses: actions/checkout@v4
 
       # ─── Últimos repositorios actualizados ───────────────────────────────────
       - name: Get recent repositories
@@ -37,9 +32,9 @@ jobs:
             });
 
             const lines = repos.map(r => {
-              const desc = r.description ? ` — ${r.description}` : '';
-              const lang = r.language ? ` \`${r.language}\`` : '';
-              return `| [${r.name}](${r.html_url}) |${lang} | ⭐ ${r.stargazers_count} | ${new Date(r.updated_at).toISOString().split('T')[0]} |`;
+              const lang = r.language ? `\`${r.language}\`` : '—';
+              const date = new Date(r.updated_at).toISOString().split('T')[0];
+              return `| [${r.name}](${r.html_url}) | ${lang} | ⭐ ${r.stargazers_count} | ${date} |`;
             });
 
             const table =
@@ -56,7 +51,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+            const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
 
             const { data: events } = await github.rest.activity.listPublicEventsForUser({
               username: 'SebastianMartinezLesmes',
@@ -64,7 +59,7 @@ jobs:
             });
 
             const pushEvents = events.filter(e =>
-              e.type === 'PushEvent' && new Date(e.created_at) >= new Date(since)
+              e.type === 'PushEvent' && new Date(e.created_at) >= since
             );
 
             const commitCount = pushEvents.reduce((sum, e) => sum + (e.payload.commits?.length || 0), 0);
@@ -79,53 +74,40 @@ jobs:
           RECENT_REPOS: ${{ steps.recent-repos.outputs.table }}
           WEEKLY_ACTIVITY: ${{ steps.weekly-activity.outputs.summary }}
         run: |
-          python3 << 'EOF'
+          python3 - <<'PYEOF'
           import os, re
 
           with open('README.md', 'r', encoding='utf-8') as f:
               content = f.read()
 
-          repos_table = os.environ.get('RECENT_REPOS', '')
-          weekly      = os.environ.get('WEEKLY_ACTIVITY', '')
+          repos_table = os.environ.get('RECENT_REPOS', '').strip()
+          weekly      = os.environ.get('WEEKLY_ACTIVITY', '').strip()
 
-          # Bloque: últimos repositorios
-          repos_block = (
-              "<!-- RECENT-REPOS:START -->\n"
-              f"{repos_table}\n"
-              "<!-- RECENT-REPOS:END -->"
-          )
-          if '<!-- RECENT-REPOS:START -->' in content:
-              content = re.sub(
-                  r'<!-- RECENT-REPOS:START -->.*?<!-- RECENT-REPOS:END -->',
-                  repos_block, content, flags=re.DOTALL
-              )
-          else:
-              content += f"\n{repos_block}\n"
+          def replace_block(content, tag, inner):
+              start = f'<!-- {tag}:START -->'
+              end   = f'<!-- {tag}:END -->'
+              block = f'{start}\n{inner}\n{end}'
+              if start in content:
+                  return re.sub(
+                      rf'{re.escape(start)}.*?{re.escape(end)}',
+                      block, content, flags=re.DOTALL
+                  )
+              return content
 
-          # Bloque: actividad semanal
-          activity_block = (
-              "<!-- WEEKLY-ACTIVITY:START -->\n"
-              f"{weekly}\n"
-              "<!-- WEEKLY-ACTIVITY:END -->"
-          )
-          if '<!-- WEEKLY-ACTIVITY:START -->' in content:
-              content = re.sub(
-                  r'<!-- WEEKLY-ACTIVITY:START -->.*?<!-- WEEKLY-ACTIVITY:END -->',
-                  activity_block, content, flags=re.DOTALL
-              )
-          else:
-              content += f"\n{activity_block}\n"
+          content = replace_block(content, 'RECENT-REPOS',    repos_table)
+          content = replace_block(content, 'WEEKLY-ACTIVITY', weekly)
 
           with open('README.md', 'w', encoding='utf-8') as f:
               f.write(content)
 
           print("README actualizado correctamente.")
-          EOF
+          PYEOF
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add README.md
-          git diff --staged --quiet || git commit -m "chore: update README stats [skip ci]"
-          git push
+          git diff --staged --quiet && echo "No changes to commit" && exit 0
+          git commit -m "chore: update README stats [skip ci]"
+          git push origin HEAD:main
