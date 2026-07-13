@@ -58,7 +58,7 @@ I enjoy experimenting with new technologies and continually improving my skills 
 <!-- RECENT-REPOS:START -->
 | Repositorio | Lenguaje | Stars | Última actualización |
 |---|---|---|---|
-| [SebastianMartinezLesmes](https://github.com/SebastianMartinezLesmes/SebastianMartinezLesmes) | | ⭐ 0 | 2026-06-17 |
+| [SebastianMartinezLesmes](https://github.com/SebastianMartinezLesmes/SebastianMartinezLesmes) | | ⭐ 0 | 2026-07-11 |
 | [Lotery_prediction](https://github.com/SebastianMartinezLesmes/Lotery_prediction) | `Python` | ⭐ 1 | 2026-03-16 |
 | [Baloto_prediction](https://github.com/SebastianMartinezLesmes/Baloto_prediction) | `Python` | ⭐ 0 | 2026-01-19 |
 | [whatsapp_angular](https://github.com/SebastianMartinezLesmes/whatsapp_angular) | `TypeScript` | ⭐ 0 | 2026-01-02 |
@@ -66,7 +66,7 @@ I enjoy experimenting with new technologies and continually improving my skills 
 <!-- RECENT-REPOS:END -->
 
 <!-- WEEKLY-ACTIVITY:START -->
-🗓️ Última semana: **0 commits** en **1 repositorios**
+🗓️ Última semana: **0 commits** en **0 repositorios**
 <!-- WEEKLY-ACTIVITY:END -->
 
 ## � Recursos útilesp
