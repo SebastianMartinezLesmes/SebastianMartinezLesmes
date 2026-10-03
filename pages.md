@@ -177,6 +177,6 @@ Plataformas gratuitas (o con plan gratuito generoso) para seguir creciendo como 
 
 *¿Encontraste un recurso útil que no está aquí? Abre un issue o un PR.*
 
-[![Volver al perfil](https://img.shields.io/badge/←%20Volver%20al%20perfil-README-blue?style=flat-square)](./README.md)
+[![Volver al perfil](https://img.shields.io/badge/←%20Volver%20al%20perfil-README-6E40C9?style=for-the-badge)](./README.md)
 
 </div>
