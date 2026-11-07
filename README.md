@@ -1,14 +1,18 @@
-<div align="center">
+﻿<div align="center">
 
-# Hi, I'm Sebastián Martínez 👋
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=1000&color=6E40C9&center=true&vCenter=true&width=600&lines=Junior+Web+Developer;Angular+%2F+Ionic+%2F+React+enthusiast;Python+automation+builder;Always+learning+new+things+%F0%9F%9A%80)](https://git.io/typing-svg)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Hi%2C%20I'm%20Sebasti%C3%A1n%20Mart%C3%ADnez&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Junior%20Web%20Developer%20%7C%20Angular%20%2F%20Ionic%20%2F%20React%20%7C%20Python%20Automation&descAlignY=56&descSize=17" alt="header"/>
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-sebastian-martinez-lesmes-52948b234/)
 [![Pinterest](https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)](https://co.pinterest.com/Lesmes_001/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SebastianMartinezLesmes)
+[![Profile Views](https://komarev.com/ghpvc/?username=SebastianMartinezLesmes&style=for-the-badge&color=6E40C9&label=PROFILE+VIEWS)](https://github.com/SebastianMartinezLesmes)
+
+<br/>
+
+![Status](https://img.shields.io/badge/Status-Open%20to%20Work-6E40C9?style=for-the-badge&logoColor=white)
+![Focus](https://img.shields.io/badge/Focus-Angular%20%2F%20Ionic%20%2F%20React-007ACC?style=for-the-badge&logoColor=white)
 
 </div>
 
@@ -37,22 +41,36 @@ I'm a junior web developer passionate about building responsive, hybrid, and int
 ## 🛠️ Tech Stack
 
 ### Frontend
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=323330)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![SASS](https://img.shields.io/badge/SASS-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,sass)](https://skillicons.dev)
+
+</div>
 
 ### Frameworks & Libraries
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Ionic](https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white)
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=react,angular,ionic)](https://skillicons.dev)
+
+</div>
 
 ### Backend & Data
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,mysql,mongodb)](https://skillicons.dev)
+
+</div>
+
+### Tools & Environment
+
+<div align="center">
+
+[![My Skills](https://skillicons.dev/icons?i=git,github,vscode,postman)](https://skillicons.dev)
+
+</div>
 
 ---
 
@@ -60,11 +78,11 @@ I'm a junior web developer passionate about building responsive, hybrid, and int
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=SebastianMartinezLesmes&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-stats.vercel.app/api?username=SebastianMartinezLesmes&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" alt="Top Languages" />
 
 </div>
 
@@ -80,6 +98,16 @@ I'm a junior web developer passionate about building responsive, hybrid, and int
 
 ---
 
+## 📈 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SebastianMartinezLesmes&theme=tokyo-night&hide_border=true&area=true" alt="Activity Graph" />
+
+</div>
+
+---
+
 ## 🐍 Contribution Snake
 
 <div align="center">
@@ -89,12 +117,6 @@ I'm a junior web developer passionate about building responsive, hybrid, and int
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<details>
-<summary>🌊 Ocean variant (GIF)</summary>
-<br/>
-<img alt="github-snake-ocean" src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake-ocean.gif" />
-</details>
 
 </div>
 
@@ -125,5 +147,11 @@ I'm a junior web developer passionate about building responsive, hybrid, and int
 <div align="center">
 
 [![View resources →](https://img.shields.io/badge/📄%20View%20pages.md%20→-Free%20Resources-6E40C9?style=for-the-badge)](./pages.md)
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=100&section=footer" alt="footer"/>
 
 </div>
