@@ -91,9 +91,19 @@ I'm a software developer passionate about building responsive, scalable, and int
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=SebastianMartinezLesmes&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=6E40C9&include_all_commits=true" alt="GitHub Statistics"/>
+<img
+  src="https://github-readme-stats.vercel.app/api?username=SebastianMartinezLesmes&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=6E40C9"
+  alt="GitHub Statistics"
+  width="100%"
+/>
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA" alt="Most Used Languages"/>
+<br/>
+
+<img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA"
+  alt="Most Used Languages"
+  width="100%"
+/>
 
 </div>
 
