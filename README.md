@@ -1,6 +1,6 @@
 ﻿<div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Hi%2C%20I'm%20Sebasti%C3%A1n%20Mart%C3%ADnez&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Junior%20Web%20Developer%20%7C%20Angular%20%2F%20Ionic%20%2F%20React%20%7C%20Python%20Automation&descAlignY=56&descSize=17" alt="header"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Hi%2C%20I%27m%20Sebasti%C3%A1n%20Mart%C3%ADnez&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Junior%20Web%20Developer%20%7C%20Angular%20%2F%20Ionic%20%2F%20React%20%7C%20Python%20Automation&descAlignY=56&descSize=17" width="100%" alt="Sebastián Martínez - Junior Web Developer"/>
 
 <br/>
 
