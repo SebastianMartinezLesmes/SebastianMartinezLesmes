@@ -150,37 +150,65 @@ I'm a software developer passionate about building responsive, scalable, and int
 
 ## 🚀 Featured Projects
 
-### 🎯 [Lotery Prediction](https://github.com/SebastianMartinezLesmes/Lotery_prediction)
-Lottery prediction system developed with Python.
-
-**Technologies:** Python · PostgreSQL · Machine Learning
-
----
-
-### 🎰 [Baloto Prediction](https://github.com/SebastianMartinezLesmes/Baloto_prediction)
-Python-based project focused on lottery data analysis and prediction.
-
-**Technologies:** Python · Data Analysis
-
----
-
-### 💬 [WhatsApp Angular](https://github.com/SebastianMartinezLesmes/whatsapp_angular)
-Application developed using Angular.
-
-**Technologies:** Angular · TypeScript
-
----
-
-### 🅰️ [Angular Project](https://github.com/SebastianMartinezLesmes/Angular_proyect)
-Project focused on Angular application development.
-
-**Technologies:** Angular · TypeScript
-
----
-
 <div align="center">
 
-[**Explore all my repositories →**](https://github.com/SebastianMartinezLesmes?tab=repositories)
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Lotery Prediction
+
+Lottery prediction system developed with Python.
+
+<a href="https://github.com/SebastianMartinezLesmes/Lotery_prediction">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Lotery Prediction"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎰 Baloto Prediction
+
+Python-based lottery prediction project.
+
+<a href="https://github.com/SebastianMartinezLesmes/Baloto_prediction">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Baloto Prediction"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💬 WhatsApp Angular
+
+Angular-based project.
+
+<a href="https://github.com/SebastianMartinezLesmes/whatsapp_angular">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View WhatsApp Angular"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🅰️ Angular Project
+
+Project developed with Angular.
+
+<a href="https://github.com/SebastianMartinezLesmes/Angular_proyect">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Angular Project"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE%20ALL%20PROJECTS-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/>
+</a>
 
 </div>
 
