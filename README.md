@@ -1,47 +1,245 @@
-# 💫 About Me
+﻿
+<div align="center">
 
-I'm a junior web developer passionate about building responsive, hybrid, and interactive applications.  
-I’ve worked on projects ranging from data visualization and system simulations to frontend web apps and real-time interfaces.
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=200&section=header&text=Hi%2C%20I%27m%20Sebasti%C3%A1n%20Mart%C3%ADnez&fontSize=38&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Junior%20Web%20Developer%20%7C%20Angular%20%2F%20Ionic%20%2F%20React%20%7C%20Python%20Automation&descAlignY=56&descSize=17" width="100%" alt="Sebastián Martínez - Junior Web Developer"/>
 
-My experience includes:
+<br/>
 
-- 🔹 Developing hybrid mobile/web apps using **Angular** and **Ionic**
-- 🔹 Creating interactive data dashboards with **EChartsJS**
-- 🔹 Building system logic simulations like a **5-bit RAM memory** using digital logic tools
-- 🔹 Automating tasks and building logic-based applications with **Python**
-- 🔹 Designing GUI tools in **Tkinter** for educational and entertainment purposes
-- 🔹 Processing and analyzing data from Excel and APIs (e.g., GitHub)
+<a href="https://www.linkedin.com/in/juan-sebastian-martinez-lesmes-52948b234/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+<a href="https://co.pinterest.com/Lesmes_001/">
+  <img src="https://img.shields.io/badge/Pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white" alt="Pinterest"/>
+</a>
+<a href="https://github.com/SebastianMartinezLesmes">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+</a>
 
-I enjoy experimenting with new technologies and continually improving my skills through real-world applications.
+<br/><br/>
 
-## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juan-sebastian-martinez-lesmes-52948b234/) | [![Pinterest](https://img.shields.io/badge/Pinterest-%23E60023.svg?logo=Pinterest&logoColor=white)](https://co.pinterest.com/Lesmes_001/)
+<img src="https://komarev.com/ghpvc/?username=SebastianMartinezLesmes&style=for-the-badge&color=6E40C9&label=PROFILE+VIEWS" alt="Profile Views"/>
 
-# 💻 Tech Stack:
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) 
-![SASS](https://img.shields.io/badge/SASS-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white) 
-![LESS](https://img.shields.io/badge/LESS-%231D365D.svg?style=for-the-badge&logo=less&logoColor=white) 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) 
-![Ionic](https://img.shields.io/badge/ionic-%233780FF.svg?style=for-the-badge&logo=ionic&logoColor=white) 
-![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white) 
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+<br/><br/>
 
-# 📊 GitHub Stats:
-![](https://github-readme-streak-stats.herokuapp.com/?user=SebastianMartinezLesmes&theme=dark&hide_border=false)  
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact)
+<img src="https://img.shields.io/badge/Status-Open%20to%20Work-6E40C9?style=for-the-badge" alt="Open to Work"/>
+<img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-007ACC?style=for-the-badge" alt="Development Focus"/>
 
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=SebastianMartinezLesmes&theme=algolia&no-frame=true&no-bg=false&margin-w=4)
+</div>
+
+---
+
+## 💫 About Me
+
+I'm a software developer passionate about building responsive, scalable, and interactive applications. I enjoy working across the stack, combining modern frontend technologies with backend development, database management, and process automation.
+
+```text
+🔭 Currently building  →  Web and hybrid applications with Angular & Ionic
+🌱 Currently learning  →  React, FastAPI, and cloud technologies
+💻 Main interests      →  Software architecture, APIs, and automation
+⚡ Fun fact            →  I built a 5-bit RAM memory simulation using digital logic tools
+```
+
+### What I work with
+
+- 📱 **Frontend Development:** Angular, Ionic, React, TypeScript, and JavaScript.
+- 🎨 **UI Development:** Responsive interfaces, reusable components, and interactive dashboards.
+- ⚙️ **Backend Development:** Python, FastAPI, and REST APIs.
+- 📊 **Data Visualization:** EChartsJS and data processing.
+- 🐍 **Automation:** Python scripts and Tkinter applications.
+- 🗄️ **Databases:** MySQL, MongoDB, and PostgreSQL.
+- 🔗 **Integrations:** External APIs, data processing, and application connectivity.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend Development
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=html,css,sass,js,ts&theme=dark" alt="Frontend Technologies"/>
+
+</div>
+
+### Frameworks & Libraries
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=angular,react,ionic&theme=dark" alt="Frameworks and Libraries"/>
+
+</div>
+
+### Backend & Databases
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,mysql,mongodb,postgres&theme=dark" alt="Backend and Databases"/>
+
+</div>
+
+### Tools & Environment
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,docker&theme=dark" alt="Development Tools"/>
+
+</div>
+
+
+---
+
+## 📊 GitHub Statistics
+
+<div align="center">
+
+<img src="https://img.shields.io/github/followers/SebastianMartinezLesmes?style=for-the-badge&logo=github&label=Followers&color=6E40C9" alt="GitHub Followers"/>
+
+<img src="https://img.shields.io/badge/Repositories-Explore%20my%20projects-6E40C9?style=for-the-badge&logo=github" alt="Explore repositories"/>
+
+<img src="https://komarev.com/ghpvc/?username=SebastianMartinezLesmes&style=for-the-badge&color=6E40C9&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+<br/><br/>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/View%20All%20Repositories-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View repositories"/>
+</a>
+
+</div>
+
+---
+
+## 🏆 GitHub Achievements
+
+<div align="center">
+
+<a href="https://github.com/SebastianMartinezLesmes">
+  <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+</a>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/Projects-Explore-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/>
+</a>
+
+</div>
+
+---
+
+## 📈 Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SebastianMartinezLesmes&bg_color=1a1b27&color=A78BFA&line=6E40C9&point=FFFFFF&area=true&hide_border=true" width="100%" alt="GitHub Contribution Activity"/>
+
+</div>
+
+---
 
 ## 🐍 Contribution Snake
-![snake gif](https://github.com/SebastianMartinezLesmes/SebastianMartinezLesmes/blob/output/github-contribution-grid-snake.svg)
 
-## 📚 Pages / Recursos
-- 📄 [pages.md](./pages.md): Lista de recursos útiles (IA, libros, correos temporales, # celulares temporales)
+<div align="center">
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg"/>
+  <img src="https://raw.githubusercontent.com/SebastianMartinezLesmes/SebastianMartinezLesmes/output/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake"/>
+</picture>
+
+</div>
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Lotery Prediction
+
+Lottery prediction system developed with Python.
+
+<a href="https://github.com/SebastianMartinezLesmes/Lotery_prediction">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Lotery Prediction"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎰 Baloto Prediction
+
+Python-based lottery prediction project.
+
+<a href="https://github.com/SebastianMartinezLesmes/Baloto_prediction">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Baloto Prediction"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💬 WhatsApp Angular
+
+Angular-based project.
+
+<a href="https://github.com/SebastianMartinezLesmes/whatsapp_angular">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View WhatsApp Angular"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🅰️ Angular Project
+
+Project developed with Angular.
+
+<a href="https://github.com/SebastianMartinezLesmes/Angular_proyect">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Angular Project"/>
+</a>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/EXPLORE%20ALL%20PROJECTS-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/>
+</a>
+
+</div>
+
+---
+
+## 📚 Free Developer Resources
+
+A collection of free tools, platforms, and resources that I find useful for learning, programming, and improving my development workflow.
+
+<div align="center">
+
+<a href="https://github.com/SebastianMartinezLesmes/SebastianMartinezLesmes/blob/main/pages.md">
+  <img src="https://img.shields.io/badge/Explore%20Free%20Resources-6E40C9?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Free Developer Resources"/>
+</a>
+
+</div>
+
+---
+
+<div align="center">
+
+### Thanks for visiting my profile!
+
+*Always learning, building, and improving.*
+
+<a href="https://github.com/SebastianMartinezLesmes">
+  <img src="https://img.shields.io/badge/Follow%20me%20on%20GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow on GitHub"/>
+</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6E40C9&height=100&section=footer" width="100%" alt="Footer"/>
+
+</div>
