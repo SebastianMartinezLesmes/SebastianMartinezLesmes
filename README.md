@@ -85,35 +85,40 @@ I'm a software developer passionate about building responsive, scalable, and int
 
 </div>
 
+
 ---
 
 ## 📊 GitHub Statistics
 
 <div align="center">
 
-<img
-  src="https://github-readme-stats.vercel.app/api?username=SebastianMartinezLesmes&show_icons=true&theme=tokyonight&hide_border=true&title_color=A78BFA&icon_color=6E40C9"
-  alt="GitHub Statistics"
-  width="100%"
-/>
+<img src="https://img.shields.io/github/followers/SebastianMartinezLesmes?style=for-the-badge&logo=github&label=Followers&color=6E40C9" alt="GitHub Followers"/>
 
-<br/>
+<img src="https://img.shields.io/badge/Repositories-Explore%20my%20projects-6E40C9?style=for-the-badge&logo=github" alt="Explore repositories"/>
 
-<img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=SebastianMartinezLesmes&layout=compact&theme=tokyonight&hide_border=true&title_color=A78BFA"
-  alt="Most Used Languages"
-  width="100%"
-/>
+<img src="https://komarev.com/ghpvc/?username=SebastianMartinezLesmes&style=for-the-badge&color=6E40C9&label=PROFILE+VIEWS" alt="Profile Views"/>
+
+<br/><br/>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/View%20All%20Repositories-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View repositories"/>
+</a>
 
 </div>
 
 ---
 
-## 🏆 GitHub Trophies
+## 🏆 GitHub Achievements
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=SebastianMartinezLesmes&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=1" width="100%" alt="GitHub Trophies"/>
+<a href="https://github.com/SebastianMartinezLesmes">
+  <img src="https://img.shields.io/badge/GitHub-View%20Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+</a>
+
+<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
+  <img src="https://img.shields.io/badge/Projects-Explore-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Projects"/>
+</a>
 
 </div>
 
