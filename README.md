@@ -150,65 +150,37 @@ I'm a software developer passionate about building responsive, scalable, and int
 
 ## 🚀 Featured Projects
 
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎯 Lotery Prediction
-
+### 🎯 [Lotery Prediction](https://github.com/SebastianMartinezLesmes/Lotery_prediction)
 Lottery prediction system developed with Python.
 
-<a href="https://github.com/SebastianMartinezLesmes/Lotery_prediction">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Lotery Prediction"/>
-</a>
+**Technologies:** Python · PostgreSQL · Machine Learning
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🎰 Baloto Prediction
+### 🎰 [Baloto Prediction](https://github.com/SebastianMartinezLesmes/Baloto_prediction)
+Python-based project focused on lottery data analysis and prediction.
 
-Python-based lottery prediction project.
+**Technologies:** Python · Data Analysis
 
-<a href="https://github.com/SebastianMartinezLesmes/Baloto_prediction">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Baloto Prediction"/>
-</a>
+---
 
-</td>
-</tr>
+### 💬 [WhatsApp Angular](https://github.com/SebastianMartinezLesmes/whatsapp_angular)
+Application developed using Angular.
 
-<tr>
-<td width="50%" valign="top">
+**Technologies:** Angular · TypeScript
 
-### 💬 WhatsApp Angular
+---
 
-Angular-based project.
+### 🅰️ [Angular Project](https://github.com/SebastianMartinezLesmes/Angular_proyect)
+Project focused on Angular application development.
 
-<a href="https://github.com/SebastianMartinezLesmes/whatsapp_angular">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View WhatsApp Angular"/>
-</a>
+**Technologies:** Angular · TypeScript
 
-</td>
-<td width="50%" valign="top">
+---
 
-### 🅰️ Angular Project
+<div align="center">
 
-Project developed with Angular.
-
-<a href="https://github.com/SebastianMartinezLesmes/Angular_proyect">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Angular Project"/>
-</a>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-<a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
-  <img src="https://img.shields.io/badge/EXPLORE%20ALL%20PROJECTS-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/>
-</a>
+[**Explore all my repositories →**](https://github.com/SebastianMartinezLesmes?tab=repositories)
 
 </div>
 
