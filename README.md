@@ -152,28 +152,62 @@ I'm a software developer passionate about building responsive, scalable, and int
 
 <div align="center">
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Lotery Prediction
+
+Lottery prediction system developed with Python.
+
 <a href="https://github.com/SebastianMartinezLesmes/Lotery_prediction">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SebastianMartinezLesmes&repo=Lotery_prediction&theme=tokyonight&hide_border=true&title_color=A78BFA" alt="Lotery Prediction"/>
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Lotery Prediction"/>
 </a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🎰 Baloto Prediction
+
+Python-based lottery prediction project.
 
 <a href="https://github.com/SebastianMartinezLesmes/Baloto_prediction">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SebastianMartinezLesmes&repo=Baloto_prediction&theme=tokyonight&hide_border=true&title_color=A78BFA" alt="Baloto Prediction"/>
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Baloto Prediction"/>
 </a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 💬 WhatsApp Angular
+
+Angular-based project.
 
 <a href="https://github.com/SebastianMartinezLesmes/whatsapp_angular">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SebastianMartinezLesmes&repo=whatsapp_angular&theme=tokyonight&hide_border=true&title_color=A78BFA" alt="WhatsApp Angular"/>
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View WhatsApp Angular"/>
 </a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🅰️ Angular Project
+
+Project developed with Angular.
 
 <a href="https://github.com/SebastianMartinezLesmes/Angular_proyect">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=SebastianMartinezLesmes&repo=Angular_proyect&theme=tokyonight&hide_border=true&title_color=A78BFA" alt="Angular Project"/>
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="View Angular Project"/>
 </a>
 
-</div>
+</td>
+</tr>
+</table>
 
-<div align="center">
+<br/>
 
 <a href="https://github.com/SebastianMartinezLesmes?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore%20All%20Repositories-6E40C9?style=for-the-badge&logo=github&logoColor=white" alt="Explore Repositories"/>
+  <img src="https://img.shields.io/badge/EXPLORE%20ALL%20PROJECTS-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore all repositories"/>
 </a>
 
 </div>
